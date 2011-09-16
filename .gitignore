@@ -29,5 +29,5 @@ devbin
 vendor/ruby
 vendor
 Gemfile.lock
-src
-src/*
+sass
+sass/*
