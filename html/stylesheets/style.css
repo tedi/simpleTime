@@ -304,13 +304,61 @@ header {
   background: #eee;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #f6f6f6;
-  height: 100px; }
+  height: 80px; }
+header #header_wrapper {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1; }
+header #header_wrapper #logo {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+  background: url("http://www.loremipsumtextgenerator.com/ad/125_125.gif") no-repeat left top;
+  height: 80px; }
+* html header #header_wrapper #logo {
+  overflow-x: hidden; }
+header #header_wrapper nav {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 710px; }
+* html header #header_wrapper nav {
+  overflow-x: hidden; }
+header #header_wrapper nav ul li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 90px;
+  text-align: center; }
+* html header #header_wrapper nav ul li {
+  overflow-x: hidden; }
+header #header_wrapper nav ul a {
+  text-decoration: none; }
+header #header_wrapper #header_register {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 70px;
+  text-decoration: none; }
+* html header #header_wrapper #header_register {
+  overflow-x: hidden; }
 
 #app_wrapper {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1; }
+#app_wrapper #front_page, #app_wrapper #features, #app_wrapper #tour, #app_wrapper #pricing, #app_wrapper #about, #app_wrapper #contact {
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  min-height: 400px; }
+
+footer {
+  background: #eee;
+  border-top: 1px solid #ccc;
+  height: 30px; }
 
 /* ==|== media queries ======================================================
    PLACEHOLDER Media Queries for Responsive Design.
