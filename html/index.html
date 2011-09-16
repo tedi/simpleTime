@@ -20,8 +20,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <link rel="stylesheet" href="css/style.css">
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 8]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <link rel="stylesheet" href="stylesheets/style.css">
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -31,13 +35,54 @@
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
-<body>
-  <header>
+<body> 
+	
+  <header>  
+	  <section id="header_wrapper">
+      	<a href="#front_page"><h1 id="logo" class="ir">Logo here</h1> </a>
 
+	  	<nav>
+		   	<ul>
+			   	<li><a href="#features" class="">Features</a></li>
+			   	<li><a href="#tour" class="">Tour</a></li>
+			   	<li><a href="#pricing" class="">Pricing</a></li>
+			   	<li><a href="#about" class="">About</a></li>
+			   	<li><a href="#contact" class="">Contact</a></li>
+			   	<li><a href="#" class="">Login</a></li>
+		   	</ul>
+	  	</nav>  
+		<a href="#front_page" id="header_register">Sign Up</a>  
+	  </section>
+	  
   </header>
-  <div role="main">
+  <article role="main" id="app_wrapper">
+      
+  	   	<section id="front_page" class="">
+	
+		</section>
+		
+		<section id="features" class="">
+		   <h1>Features Title</h1> 
+		</section>
+		
+		<section id="tour" class="">
+		   <h1>Tour Title</h1> 
+		 </section> 
+		
+		<section id="pricing" class="">
+		   <h1>Pricing Title</h1> 
+		</section>
+		
+		<section id="about" class="">
+           <h1>About Title</h1>
+		</section>
+		
+	    <section id="contact" class="">
+		   <h1>Contact Title</h1> 
+		 </section>
+		
 
-  </div>
+  </article>
   <footer>
 
   </footer>
@@ -49,10 +94,13 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.3.min.js"><\/script>')</script>
 
+   <script type="text/javascript" charset="utf-8" src="js/menu_page_scroll.js"> </script>      
 
+	
+</script>
   <!-- scripts concatenated and minified via build script -->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+    <script defer src="js/plugins.js"></script>
+
   <!-- end scripts -->
 
 
