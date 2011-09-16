@@ -304,7 +304,14 @@ header {
   background: #eee;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #f6f6f6;
-  height: 80px; }
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  min-width: 950px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 2px; }
 header #header_wrapper {
   width: 950px;
   margin: 0 auto;
@@ -316,14 +323,15 @@ header #header_wrapper #logo {
   margin-right: 10px;
   width: 150px;
   background: url("http://www.loremipsumtextgenerator.com/ad/125_125.gif") no-repeat left top;
-  height: 80px; }
+  height: 60px; }
 * html header #header_wrapper #logo {
   overflow-x: hidden; }
 header #header_wrapper nav {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 710px; }
+  width: 710px;
+  margin-top: 20px; }
 * html header #header_wrapper nav {
   overflow-x: hidden; }
 header #header_wrapper nav ul li {
@@ -336,11 +344,14 @@ header #header_wrapper nav ul li {
   overflow-x: hidden; }
 header #header_wrapper nav ul a {
   text-decoration: none; }
+header #header_wrapper nav ul a.link-active {
+  font-weight: bold; }
 header #header_wrapper #header_register {
   display: inline;
   float: left;
   margin-right: 0;
   width: 70px;
+  margin-top: 20px;
   text-decoration: none; }
 * html header #header_wrapper #header_register {
   overflow-x: hidden; }
@@ -353,7 +364,7 @@ header #header_wrapper #header_register {
 #app_wrapper #front_page, #app_wrapper #features, #app_wrapper #tour, #app_wrapper #pricing, #app_wrapper #about, #app_wrapper #contact {
   background: #eee;
   border-bottom: 1px solid #ccc;
-  min-height: 400px; }
+  min-height: 700px; }
 
 footer {
   background: #eee;
