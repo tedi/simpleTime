@@ -1,0 +1,73 @@
+Page One:
+
+<h1>Keeping time, simply.</h1> or <h1>Simply Keeping Time</h1> 
+<p>Are you a small business or freelancer? You don’t need complicated software to keep track of your clients and projects. Let our application keep track of billable hours for you. Keep it simple with SimpleTime. </p>
+
+Page Two:
+
+Simple Features from SimpleTIme
+Create and manage multiple companies.
+Do you work for or own multiple companies? Keep track of them all in one easy to use application. 
+Easily add and update client information.
+Have client information at the click of a button. When a client calls, having his or her information readily available without complicated navigation is simply smart.
+Create unlimited projects for each client.
+Just because we’re easy doesn’t mean we aren’t capable. Managing hundreds of projects per client is no problem.
+Assign tasks for each project.
+Break down your projects into easily digestible tasks; then time them.
+Single-click task time tracking.
+Does it get any easier than click once to start a clock? Unless you are able to do it telepathically, we don’t think so. 
+Single-screen application management.
+More pages mean more work for us and for you. We like it simple and we know you will too.
+
+
+Page Three:
+
+A Simple Tour of SimpleTime
+Using our application is as simple as our tour. Don’t get lost.
+
+Register -> Create a Company -> Create a Client ->
+Create a Project -> Create a Task -> Start Timing
+
+Page Four:
+
+Simple Pricing
+The only thing easier than our app is our pricing. 
+
+Tier One:
+1 Company
+3 Clients
+Unlimited Projects
+Unlimited Tasks
+
+Tier Two:
+3 Companies
+5 Clients per company
+Unlimited Projects
+Unlimited Tasks
+
+Tier Three:
+Unlimited Everything 
+24/7 Customer Support
+
+
+
+
+Page Five:
+
+About
+We have assembled simplest minds in the business! We believe that no application is too easy. A product can always be made better, easier, and more efficient. When you think simple, we want you to think of us. Meet our team below.
+
+
+Page Six:
+
+Contact
+What can we do for you? simple*
+
+
+
+*We added simple here because of our compulsive need to reinforce how simple we are and to have the word ”simple” in every section. No other reason......simple.
+
+or 
+
+Contact
+We are simply here to help. What can we do for you?
