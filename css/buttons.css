@@ -1,0 +1,55 @@
+button.orange {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px;
+       color: #fafafa;
+       padding: 10px 20px;
+       background: -moz-linear-gradient(
+               top,
+               #ff7700 0%,
+               #ed956d);
+       background: -webkit-gradient(
+               linear, left top, left bottom,
+               from(#ff7700),
+               to(#ed956d));
+       border-radius: 5px;
+       -moz-border-radius: 5px;
+       -webkit-border-radius: 5px;
+       border: 0px solid #2ea100;
+       -moz-box-shadow:
+               0px 1px 3px rgba(46,45,46,0.8),
+               inset 0px 0px 3px rgba(255,255,255,0.5);
+       -webkit-box-shadow:
+               0px 1px 3px rgba(46,45,46,0.8),
+               inset 0px 0px 3px rgba(255,255,255,0.5);
+       text-shadow:
+               0px -1px 0px rgba(000,000,000,0.3),
+               0px 1px 0px rgba(255,255,255,1);
+}
+
+button.grey {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px;
+       color: #fafafa;
+       padding: 10px 20px;
+       background: -moz-linear-gradient(
+               top,
+               #3b3835 0%,
+               #a8a4a3);
+       background: -webkit-gradient(
+               linear, left top, left bottom,
+               from(#3b3835),
+               to(#a8a4a3));
+       border-radius: 5px;
+       -moz-border-radius: 5px;
+       -webkit-border-radius: 5px;
+       border: 0px solid #2ea100;
+       -moz-box-shadow:
+               0px 1px 3px rgba(46,45,46,0.8),
+               inset 0px 0px 3px rgba(255,255,255,0.5);
+       -webkit-box-shadow:
+               0px 1px 3px rgba(46,45,46,0.8),
+               inset 0px 0px 3px rgba(255,255,255,0.5);
+       text-shadow:
+               0px -1px 0px rgba(000,000,000,0.3),
+               0px 1px 0px rgba(255,255,255,1);
+}
