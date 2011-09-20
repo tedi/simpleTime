@@ -6,18 +6,19 @@ Page One:
 Page Two:
 
 Simple Features from SimpleTIme
+
 Create and manage multiple companies.
-Do you work for or own multiple companies? Keep track of them all in one easy to use application. 
+	Do you work for or own multiple companies? Keep track of them all in one easy to use application. 
 Easily add and update client information.
-Have client information at the click of a button. When a client calls, having his or her information readily available without complicated navigation is simply smart.
+	Have client information at the click of a button. When a client calls, having his or her information readily available without complicated navigation is simply smart.
 Create unlimited projects for each client.
-Just because we’re easy doesn’t mean we aren’t capable. Managing hundreds of projects per client is no problem.
+	Just because we’re easy doesn’t mean we aren’t capable. Managing hundreds of projects per client is no problem.
 Assign tasks for each project.
-Break down your projects into easily digestible tasks; then time them.
+	Break down your projects into easily digestible tasks; then time them.
 Single-click task time tracking.
-Does it get any easier than click once to start a clock? Unless you are able to do it telepathically, we don’t think so. 
+	Does it get any easier than click once to start a clock? Unless you are able to do it telepathically, we don’t think so. 
 Single-screen application management.
-More pages mean more work for us and for you. We like it simple and we know you will too.
+	More pages mean more work for us and for you. We like it simple and we know you will too.
 
 
 Page Three:
