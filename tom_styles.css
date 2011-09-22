@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+hr {
+	width:80%;
+	height:1px;
+	color:#F6F6F6;
+	margin:50px auto;	
+}
+
+
+h1 {
+	font-size:25px;
+}
+
+h2 {
+	font-size:20px;
+	line-height:25px;
+}
+
+body {
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:22px;
+	margin:0;
+	padding:0;	
+}
+
+#wrapper {
+	width:950px;
+	margin:0 auto 40px;	
+	padding:0;
+}
+
+#frontPageContainer {
+	width:900px;
+	margin:30px auto 30px;
+}
+
+#frontPageContainer img {
+	float:left;	
+	margin-right:30px;
+}
+
+#frontPageRight {
+	width:450px;
+	float:left;
+	margin:50px 0 0;
+}
+
+#frontPageRight h1 {
+	margin:10px 0 0 0;
+	font-size:45px;	
+	line-height:55px;
+}
+
+#frontPageRight h2 {
+	font-size:20px;	
+	margin:10px 0;
+}
+
+#frontPageForm {
+	background:blue;
+	margin:25px 0 0;
+	width: 350px;
+	padding:25px;	
+	background:#F2F2F2;	
+	-moz-border-radius:10px;
+	border:1px solid #989898;
+}
+
+#frontPageForm div {
+	text-align:right;
+	float:left;
+	width: 125px;
+	margin:0 0 5px 10px;
+}
+
+#frontPageForm div input {
+	width:125px;	
+}
+
+#submit {
+	width:250px;
+	margin:10px 0 0 50px;
+}
+
+#features {
+	text-align:center;
+	width: 700px;
+	margin:0 auto 0;
+}
+
+#features div {
+	text-align:left;
+	width:300px;
+	float:left;
+	margin:10px 0 0 50px; 	
+}
+
+#features div img {
+	float:left;
+	width:30px;
+	margin:10px 10px 0 0;
+}
+
+#features div h3 {
+	font-size:18px;	
+}
+
+#tour {
+	text-align:center;
+	width:900px;
+	margin:0 auto;	
+}
+
+#tour .sampleGallery {
+	width:400px;
+	margin:20px 25px 0 0;
+	float:left;
+}
+
+#tour .sampleGallery div {
+	text-align:center;
+	width:100px;
+	margin:15px 0 15px 33px;
+	float:left;
+}
+
+#tour .sampleGallery div img {
+	width:100px;	
+}
+
+#tourVideo {
+	width:450px;
+	height:310px;
+	margin:15px 0 0 25px;	
+}
