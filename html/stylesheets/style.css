@@ -301,10 +301,10 @@ td {
    Author: Bree Benesh, David Mills, Thomas Cassidy, Melissa Filan, Tedi Konda
    ========================================================================== */
 header {
-  background: #eee;
+  background: #f6f6f6;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #f6f6f6;
-  height: 60px;
+  height: 45px;
   position: fixed;
   width: 100%;
   min-width: 950px;
@@ -322,16 +322,16 @@ header #header_wrapper #logo {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 150px;
-  background: url("http://www.loremipsumtextgenerator.com/ad/125_125.gif") no-repeat left top;
+  width: 210px;
+  background: url(../img/simpleTime.png) no-repeat top center;
   height: 60px; }
 * html header #header_wrapper #logo {
   overflow-x: hidden; }
 header #header_wrapper nav {
   display: inline;
   float: left;
-  margin-right: 10px;
-  width: 710px;
+  margin-right: 0;
+  width: 730px;
   margin-top: 20px; }
 * html header #header_wrapper nav {
   overflow-x: hidden; }
@@ -344,18 +344,13 @@ header #header_wrapper nav ul li {
 * html header #header_wrapper nav ul li {
   overflow-x: hidden; }
 header #header_wrapper nav ul a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
 header #header_wrapper nav ul a.link-active {
   font-weight: bold; }
-header #header_wrapper #header_register {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 70px;
-  margin-top: 20px;
-  text-decoration: none; }
-* html header #header_wrapper #header_register {
-  overflow-x: hidden; }
+header #header_wrapper nav ul a.header_register {
+  color: #ff7700 !important;
+  font-weight: bold; }
 
 footer {
   background: #eee;
@@ -402,6 +397,12 @@ footer {
 
 #frontPageForm div input {
   width: 125px; }
+
+#features_wrap {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1; }
 
 #submit {
   width: 250px;
@@ -460,6 +461,10 @@ footer {
   width: 450px;
   height: 310px;
   margin: 15px 0 0 25px; }
+
+hr {
+  margin-top: 80px;
+  margin-bottom: 80px; }
 
 #pricing {
   text-align: center; }
@@ -521,12 +526,123 @@ footer {
   text-decoration: none;
   display: block;
   margin: 20px; }
+#pricing small {
+  font-style: italic; }
+
+#about {
+  text-align: center; }
+#about #portraits {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px; }
+* html #about #portraits {
+  overflow-x: hidden; }
+#about #portraits figure {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 226px; }
+* html #about #portraits figure {
+  overflow-x: hidden; }
+#about #portraits figure img {
+  background: #eee;
+  padding: 7px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px; }
+#about #portraits figure figcaption {
+  font-weight: bold; }
+
+#contact {
+  text-align: center;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px; }
+* html #contact {
+  overflow-x: hidden; }
+#contact #contact_left {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px; }
+* html #contact #contact_left {
+  overflow-x: hidden; }
+#contact #contact_left div {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+  margin-bottom: 20px; }
+* html #contact #contact_left div {
+  overflow-x: hidden; }
+#contact #contact_left div label {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+  text-align: right; }
+* html #contact #contact_left div label {
+  overflow-x: hidden; }
+#contact #contact_left div input, #contact #contact_left div textarea {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 310px;
+  background: #eee;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px; }
+* html #contact #contact_left div input, * html #contact #contact_left div textarea {
+  overflow-x: hidden; }
+#contact #contact_left div input:focus, #contact #contact_left div textarea:focus {
+  background: #fff;
+  border: 1px solid #eee; }
+#contact #contact_left #contact_submit {
+  display: block;
+  float: right; }
+#contact #contact_right {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px; }
+* html #contact #contact_right {
+  overflow-x: hidden; }
+#contact #contact_right #social-media {
+  border: 1px solid #eee;
+  padding: 10px;
+  width: 50%;
+  display: inline;
+  float: right;
+  margin-bottom: 20px; }
+#contact #contact_right img {
+  display: inline;
+  float: right; }
 
 .wrapper {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1; }
+
+h1 {
+  font-size: 300%;
+  font-weight: bold; }
+
+h2 {
+  font-size: 150%;
+  font-color: #666;
+  margin-bottom: 30px; }
 
 /*****buttons ****/
 .orange {
